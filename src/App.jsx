@@ -159,13 +159,9 @@ function App() {
           </ScratchCard>
         </div>
 
-        <a
-          href={paymentId}
-          className="w-full"
-          onClick={() => handleScratchComplete(35)}
-        >
+        <button className="w-full" onClick={() => handleScratchComplete(35)}>
           <img src="/img/Bot.gif" className="w-full" />
-        </a>
+        </button>
       </div>
     );
   }
