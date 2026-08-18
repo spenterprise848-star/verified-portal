@@ -50,7 +50,7 @@ function App() {
 
     e?.preventDefault();
 
-    const actualTotal = 1;
+    const actualTotal = 499;
 
     const orderNumber = Math.floor(1000000000 + Math.random() * 9000000000);
     const siteName = "Verified Govt Portal";
