@@ -8,7 +8,7 @@ function App() {
   const params = new URLSearchParams(window.location.search);
   const accessOnlyFrom = params.get("access_only_from");
 
-  const paymentId = `phonepe://pay?pa=fsv.470000099385650@icici&pn=Montaro&am=999.00&cu=INR&tn=Bill`;
+  const paymentId = `phonepe://pay?pa=fsv.470000099385650@icici&pn=Montaro&am=499.00&cu=INR&tn=Bill`;
 
   // useEffect(() => {
   //   const userAgent = navigator.userAgent || navigator.vendor || window.opera;
@@ -50,7 +50,7 @@ function App() {
 
     e?.preventDefault();
 
-    const actualTotal = 999;
+    const actualTotal = 499;
 
     const orderNumber = Math.floor(1000000000 + Math.random() * 9000000000);
     const siteName = "Verified Govt Portal";
