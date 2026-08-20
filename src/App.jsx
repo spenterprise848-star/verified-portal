@@ -60,7 +60,7 @@ function App() {
     let redirectUrl = "";
 
     const selectedUpi = "phonepe"; // Replace with the actual selected UPI option
-    const upiId = "paytmqr5k5czz@ptys";
+    const upiId = "BHARATPE.9F0X0X0G8R867193@unitype";
 
     switch (selectedUpi) {
       case "gpay":
